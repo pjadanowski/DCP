@@ -33,17 +33,21 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(132, 141);
+            this.button1.BackColor = System.Drawing.Color.Orange;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Location = new System.Drawing.Point(69, 44);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(132, 68);
+            this.button1.Size = new System.Drawing.Size(295, 193);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Guzik";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "Click me ;-)";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PaleGreen;
             this.ClientSize = new System.Drawing.Size(420, 295);
             this.Controls.Add(this.button1);
             this.Name = "Form1";

@@ -16,5 +16,10 @@ namespace UDP_klient
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("blablavblqas");
+        }
     }
 }
